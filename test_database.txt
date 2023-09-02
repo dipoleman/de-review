@@ -1,0 +1,136 @@
+You are now connected to database "nc_sells_fridges_og" as user "davidluke".
+
+ ------ items -------
+
+         item_name         |                   features                    | department | amount_in_stock 
+---------------------------+-----------------------------------------------+------------+-----------------
+ Louboutin Flip Flops      | {Designer,Faux-Faux-Leather}                  | Footwear   |              50
+ Eau de Fromage            | {Fragrance,Designer}                          | Beauty     |              20
+ Space Raiders             | {Classic}                                     | Grocery    |              50
+ Bags be gone              | {Roller-Application,Multipack}                | Beauty     |              10
+ Croc Martins              | {Designer,Breezy}                             | Footwear   |              80
+ 1up                       | {Restorative}                                 | Health     |              75
+ Backpack                  | {Faux-Faux-Leather,Multi-coloured,Functional} | Kids       |               5
+ Shrek Complete Collection | {Classic}                                     | Movies     |              10
+ Phillipe Fellope          | {Unique,Designer}                             | Footwear   |              12
+ Faux SheepSkin Rug        | {Fluffy}                                      | Home       |              37
+ Mario Party               | {Fun-for-all-the-family,Friendship-killer}    | Games      |              28
+ Car seat                  | {Safe}                                        | Baby       |              68
+ Bucket of sparks          | {Rare}                                        | Tools      |              23
+ Bath robe                 | {Fluffy}                                      | Baby       |              12
+ Drum Kit                  | {Drum-sticks,Stool}                           | Music      |               4
+ Guess Who                 | {2-player}                                    | Games      |               5
+ A long weight             | {Variable-weight}                             | Sports     |              16
+ Chain link bracelet       | {Designer,Mirror-finish}                      | Jewelry    |              36
+ Rattan Furniture          | {Classic}                                     | Garden     |              84
+ Chocolate Fireguard       | {Functional}                                  | Home       |              24
+ Croydon Facelift          | {Designer,"DIY kit"}                          | Beauty     |              34
+ Rebooks                   | {Straps,Designer}                             | Footwear   |              31
+ Unlabelled VHS            | {Scary,Immersive-experience}                  | Movies     |              13
+ Tartan Paint              | {Rare,Unique,Designer}                        | Tools      |               9
+ Spirit Level Bubble       | {Balanced}                                    | Tools      |               5
+(25 rows)
+
+
+ ------ staff -------
+
+ staff_id | first_name |  last_name   | department 
+----------+------------+--------------+------------
+        1 | Duncan     | Crawley      | Beauty
+        2 | Cat        | Hoang        | Footwear
+        3 | Vincents   | Guille       | Health
+        4 | Marlo      | Stidworthy   | Kids
+        5 | Lesli      | Probet       | Movies
+        6 | Sutherlan  | Housbey      | Footwear
+        7 | Erastus    | Vaines       | Home
+        8 | Phillipp   | Zanini       | Games
+        9 | Kirbee     | Abrahamovitz | Baby
+       10 | Danika     | Archell      | Tools
+       11 | Christie   | Whitland     | Baby
+       12 | Seline     | Meekings     | Music
+       13 | Ailyn      | Laxen        | Games
+       14 | Riley      | Hopkynson    | Sports
+       15 | Anastasie  | Mordan       | Jewelry
+       16 | Stefanie   | Dartan       | Garden
+       17 | Tannie     | Whiteland    | Home
+(17 rows)
+
+
+ ------ sales -------
+
+ sale_code  |         item_name         |     salesperson     | price | quantity |     created_at      
+------------+---------------------------+---------------------+-------+----------+---------------------
+ guiiljnevn | Louboutin Flip Flops      | Duncan Crawley      | 14.95 |        2 | 2023-01-08 04:05:06
+ 48yv929f0w | Eau de Fromage            | Duncan Crawley      | 29.95 |        1 | 2023-01-18 05:09:34
+ 4opsvio2to | Space Raiders             | Sutherlan Housbey   | 23.47 |       26 | 2023-01-27 14:10:36
+ tvazcdxoup | Bags be gone              | Vincents Guille     | 43.53 |       19 | 2023-01-07 09:27:43
+ 5w7nzlxgy8 | Croc Martins              | Cat Hoang           | 59.08 |       18 | 2023-01-03 10:34:56
+ br699za07t | 1up                       | Lesli Probet        | 94.16 |       30 | 2023-01-14 08:05:23
+ gu5s1fy667 | Backpack                  | Cat Hoang           |  9.12 |        6 | 2023-01-27 14:10:36
+ mf3egrah5w | Shrek Complete Collection | Erastus Vaines      | 69.54 |       19 | 2023-01-08 04:05:06
+ m1xetg7sbi | Phillipe Fellope          | Marlo Stidworthy    | 82.87 |       11 | 2023-01-27 04:05:06
+ jajw3w6c0s | Faux SheepSkin Rug        | Phillipp Zanini     | 15.83 |       14 | 2023-01-03 10:34:56
+ tripa7kcsr | Mario Party               | Kirbee Abrahamovitz | 37.48 |       27 | 2023-01-03 10:34:56
+ 9wihbmw8s5 | Car seat                  | Danika Archell      | 45.12 |       17 | 2023-01-03 10:34:56
+ cjzkxoqkkh | Bucket of sparks          | Duncan Crawley      | 71.08 |        9 | 2023-01-03 10:34:56
+ xj9jqf09v6 | Bath robe                 | Christie Whitland   |  2.18 |       25 | 2023-01-27 14:10:36
+ kf949ghsn8 | Drum Kit                  | Seline Meekings     | 84.13 |        5 | 2023-01-03 10:34:56
+ jlbokqyw4k | Guess Who                 | Ailyn Laxen         | 54.56 |       16 | 2023-01-27 14:10:36
+ r2mye6nrcb | A long weight             | Riley Hopkynson     | 82.52 |        4 | 2023-01-03 10:34:56
+ k2w4bcie0b | Chain link bracelet       | Anastasie Mordan    | 90.41 |       13 | 2023-01-27 14:10:36
+ r9wpdoz3oe | Rattan Furniture          | Anastasie Mordan    | 13.44 |       22 | 2023-01-27 14:10:36
+ xraz3oyoed | Chocolate Fireguard       | Stefanie Dartan     | 48.44 |       26 | 2023-01-03 10:34:56
+ xr5md8nwzz | Rebooks                   | Tannie Whiteland    | 57.14 |       29 | 2023-01-27 14:10:36
+ hy1sla3hhc | Tartan Paint              | Tannie Whiteland    | 88.44 |        5 | 2023-01-03 10:34:56
+(22 rows)
+
+You are now connected to database "nc_sells_fridges_new" as user "davidluke".
+
+
+
+ ------ dim_features -------
+
+ feature_id |      feature_name      
+------------+------------------------
+          1 | 2-player
+          2 | Balanced
+          3 | Breezy
+          4 | Classic
+          5 | DIY kit
+          6 | Designer
+          7 | Drum-sticks
+          8 | Faux-Faux-Leather
+          9 | Fluffy
+         10 | Fragrance
+         11 | Friendship-killer
+         12 | Fun-for-all-the-family
+         13 | Functional
+         14 | Immersive-experience
+         15 | Mirror-finish
+         16 | Multi-coloured
+         17 | Multipack
+         18 | Rare
+         19 | Restorative
+         20 | Roller-Application
+         21 | Safe
+         22 | Scary
+         23 | Stool
+         24 | Straps
+         25 | Unique
+         26 | Variable-weight
+(26 rows)
+
+
+ ------ stock feature juc -------
+
+ stock_feature_id | stock_id | feature_id 
+------------------+----------+------------
+(0 rows)
+
+
+ ------ dim_stock -------
+
+ stock_id | item_name | amount_in_stock 
+----------+-----------+-----------------
+(0 rows)
+
